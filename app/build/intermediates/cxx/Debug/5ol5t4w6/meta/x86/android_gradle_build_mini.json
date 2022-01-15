@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "nanodetncnn-Debug-x86": {
+      "artifactName": "nanodetncnn",
+      "buildCommandComponents": [
+        "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86",
+        "nanodetncnn"
+      ],
+      "abi": "x86",
+      "output": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/Debug/5ol5t4w6/obj/x86/libnanodetncnn.so",
+      "runtimeFiles": []
+    }
+  }
+}

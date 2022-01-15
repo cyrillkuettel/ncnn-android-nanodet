@@ -1,0 +1,16 @@
+# ninja log v5
+0	1	0	clean	bd637f4ad48a5837
+0	660	1642284221	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	1fc24fad4287c7ee
+0	672	1642284221	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	3d59ec6f7cc6f297
+0	764	1642284221	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	ff16a7255c491c63
+764	1041	1642284222	/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/Debug/5ol5t4w6/obj/armeabi-v7a/libnanodetncnn.so	58d103a7ac2a4ad9
+0	1	0	clean	bd637f4ad48a5837
+1	672	1642284647	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	1fc24fad4287c7ee
+1	692	1642284647	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	3d59ec6f7cc6f297
+1	791	1642284647	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	ff16a7255c491c63
+791	1046	1642284647	/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/Debug/5ol5t4w6/obj/armeabi-v7a/libnanodetncnn.so	58d103a7ac2a4ad9
+0	1	0	clean	bd637f4ad48a5837
+1	700	1642284729	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	1fc24fad4287c7ee
+0	701	1642284729	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	3d59ec6f7cc6f297
+0	810	1642284729	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	ff16a7255c491c63
+810	1063	1642284729	/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/Debug/5ol5t4w6/obj/armeabi-v7a/libnanodetncnn.so	58d103a7ac2a4ad9

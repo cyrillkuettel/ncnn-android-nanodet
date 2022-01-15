@@ -1,0 +1,10 @@
+ninja: Entering directory `/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/cmake/debug/x86'
+[1/4] Building CXX object CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o
+/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ndkcamera.cpp:152:117: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %ld", session, sequenceId, frameNumber);
+                                                                                         ~~~                        ^~~~~~~~~~~
+                                                                                         %lld
+1 warning generated.
+[2/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o
+[3/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodet.cpp.o
+[4/4] Linking CXX shared library /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cmake/debug/obj/x86/libnanodetncnn.so

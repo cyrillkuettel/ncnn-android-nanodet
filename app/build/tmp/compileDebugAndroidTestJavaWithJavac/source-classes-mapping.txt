@@ -1,0 +1,4 @@
+com/tencent/nanodetncnn/test/BuildConfig.java
+ com.tencent.nanodetncnn.test.BuildConfig
+com/tencent/nanodetncnn/ExampleInstrumentedTest.java
+ com.tencent.nanodetncnn.ExampleInstrumentedTest
