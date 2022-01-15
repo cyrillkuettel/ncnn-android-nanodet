@@ -1,0 +1,1 @@
+/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/x86_64

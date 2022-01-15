@@ -1,0 +1,1290 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1962362794
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1683380584
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 907439662
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1510648660
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1616474857
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\u0027",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1007209339
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\u0027",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1127045649
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d24\n-DANDROID_PLATFORM\u003dandroid-24\n-DANDROID_ABI\u003darm64-v8a\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DANDROID_NDK\u003d/home/demo/Android/Sdk/ndk/21.4.7075529\n-DCMAKE_ANDROID_NDK\u003d/home/demo/Android/Sdk/ndk/21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-B/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\n-GNinja\njvmArgs : \n\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2085461982
+  },
+  {
+    "level_": 0,
+    "message_": "\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 435847893
+  },
+  {
+    "level_": 0,
+    "message_": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -741268049
+  },
+  {
+    "level_": 0,
+    "message_": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1456652658
+  },
+  {
+    "level_": 0,
+    "message_": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1947531119
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni\",\n  \"buildDirectory\": \"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -765537545
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -339192848
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DANDROID_ABI\\u003darm64-v8a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darm64-v8a\",\n    \"-DANDROID_NDK\\u003d/home/demo/Android/Sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/demo/Android/Sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelWithDebInfo\"\n  ]\n}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -298630786
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1996715541
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -679952243
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -513533586
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2029310331
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 873410755
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 127857736
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 663625280
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1532562467
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -199052905
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info - done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1236674783
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1404108829
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -834896597
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -602216083
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 468597451
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1437995713
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1001812380
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features - done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1836465044
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -827910859
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -751295571
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 950378419
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 790771291
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -283291229
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1028245192
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1173547712
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1987928470
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1835135209
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info - done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1395280991
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2067800733
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 567025835
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1156297002
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1688447902
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1660795233
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 38143253
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1503224860
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features - done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 456108052
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenCV: /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android (found version \\\"4.5.3\\\") found components:  core imgproc \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -678574954
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenCV: /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android (found version \"4.5.3\") found components:  core imgproc ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2011599202
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1212052800
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":356,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1794912256
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":377,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -392817323
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_C: -fopenmp\u003dlibomp (found version \\\"3.1\\\") \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 481223787
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP_C: -fopenmp\u003dlibomp (found version \"3.1\") ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1324926123
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":398,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1009277610
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP_CXX: -fopenmp\u003dlibomp (found version \\\"3.1\\\") \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -798635349
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP_CXX: -fopenmp\u003dlibomp (found version \"3.1\") ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 422273259
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found OpenMP: TRUE (found version \\\"3.1\\\")  \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1296185957
+  },
+  {
+    "level_": 0,
+    "message_": "Found OpenMP: TRUE (found version \"3.1\")  ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1103593749
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1049333643
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread.h",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1688785155
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":418,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1265566125
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread.h - found\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 630105478
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread.h - found",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 266885758
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1403321964
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread_create",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2064057508
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":438,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1513213545
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Looking for pthread_create - found\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 70516367
+  },
+  {
+    "level_": 0,
+    "message_": "Looking for pthread_create - found",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1506206761
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found Threads: TRUE  \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -638730538
+  },
+  {
+    "level_": 0,
+    "message_": "Found Threads: TRUE  ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1142248398
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found Vulkan: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libvulkan.so  \",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 421237154
+  },
+  {
+    "level_": 0,
+    "message_": "Found Vulkan: /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libvulkan.so  ",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1547842918
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2038942915
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1811717126
+  },
+  {
+    "level_": 0,
+    "message_": "Configuring done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -763648818
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1989225597
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"compute\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 993198872
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1921785813
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -350981216
+  },
+  {
+    "level_": 0,
+    "message_": "Generating done",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1015451821
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -951670264
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"cmakeInputs\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1064433913
+  },
+  {
+    "level_": 0,
+    "message_": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindOpenMP.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindThreads.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckLibraryExists.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckSymbolExists.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckIncludeFile.c.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeConfigurableFile.in\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindVulkan.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake\",\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\"/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/platforms.cmake\",\"/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\"opencv-mobile-4.5.3-android/sdk/native/jni/OpenCVConfig-version.cmake\",\"opencv-mobile-4.5.3-android/sdk/native/jni/OpenCVConfig.cmake\",\"opencv-mobile-4.5.3-android/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake\",\"opencv-mobile-4.5.3-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake\",\"opencv-mobile-4.5.3-android/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnnConfig.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/OSDependentTargets.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/OSDependentTargets-release.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/OGLCompilerTargets.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/OGLCompilerTargets-release.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/glslangTargets.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/glslangTargets-release.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/SPIRVTargets.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/SPIRVTargets-release.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnn.cmake\",\"ncnn-20210720-android-vulkan/arm64-v8a/lib/cmake/ncnn/ncnn-release.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.c\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/feature_tests.cxx\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.c\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c\",\"../../../.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp\"]}],\"cmakeRootDirectory\":\"/home/demo/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni\",\"type\":\"reply\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2108284893
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"codemodel\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 763280335
+  },
+  {
+    "level_": 0,
+    "message_": "{\"configurations\":[{\"name\":\"RelWithDebInfo\",\"projects\":[{\"buildDirectory\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\",\"name\":\"nanodetncnn\",\"sourceDirectory\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni\",\"targets\":[{\"artifacts\":[\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a/libnanodetncnn.so\"],\"buildDirectory\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security   -O2 -g -DNDEBUG -fPIC   -fno-rtti -fno-exceptions -std\u003dgnu++11\",\"defines\":[\"nanodetncnn_EXPORTS\"],\"includePath\":[{\"isSystem\":true,\"path\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/include/ncnn\"},{\"isSystem\":true,\"path\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/jni/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"nanodetncnn.cpp\",\"nanodet.cpp\",\"ndkcamera.cpp\"]}],\"fullName\":\"libnanodetncnn.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libncnn.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/staticlibs/arm64-v8a/libopencv_core.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/staticlibs/arm64-v8a/libopencv_imgproc.a -lcamera2ndk -lmediandk -fopenmp -static-openmp /home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libvulkan.so /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libglslang.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libSPIRV.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libMachineIndependent.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libOGLCompiler.a /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libOSDependent.a -pthread /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/arm64-v8a/lib/libGenericCodeGen.a -landroid -ljnigraphics /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/staticlibs/arm64-v8a/libopencv_core.a -ldl -lm -llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"nanodetncnn\",\"sourceDirectory\":\"/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni\",\"sysroot\":\"/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 150889496
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1928821108
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a/metadata_generation_command.txt",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 194739314
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 9251976
+  }
+]

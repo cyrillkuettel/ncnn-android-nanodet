@@ -1,8 +1,0 @@
-com.tencent.nanodetncnn:string/app_name = 0x7f040000
-com.tencent.nanodetncnn:layout/main = 0x7f030000
-com.tencent.nanodetncnn:id/spinnerModel = 0x7f020003
-com.tencent.nanodetncnn:array/model_array = 0x7f010001
-com.tencent.nanodetncnn:id/cameraview = 0x7f020001
-com.tencent.nanodetncnn:id/spinnerCPUGPU = 0x7f020002
-com.tencent.nanodetncnn:id/buttonSwitchCamera = 0x7f020000
-com.tencent.nanodetncnn:array/cpugpu_array = 0x7f010000

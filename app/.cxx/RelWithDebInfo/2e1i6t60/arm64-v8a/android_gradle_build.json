@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "nanodetncnn-RelWithDebInfo-arm64-v8a": {
+      "buildCommandComponents": [
+        "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/arm64-v8a",
+        "nanodetncnn"
+      ],
+      "buildType": "release",
+      "abi": "arm64-v8a",
+      "artifactName": "nanodetncnn",
+      "output": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/arm64-v8a/libnanodetncnn.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

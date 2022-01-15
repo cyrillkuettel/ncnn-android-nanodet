@@ -1,0 +1,1 @@
+/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt

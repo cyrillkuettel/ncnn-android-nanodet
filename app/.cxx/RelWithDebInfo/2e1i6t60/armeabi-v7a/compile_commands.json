@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/armeabi-v7a",
+  "command": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnanodetncnn_EXPORTS -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/armeabi-v7a/include/ncnn -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o -c /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/nanodetncnn.cpp",
+  "file": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/nanodetncnn.cpp"
+},
+
+{
+  "directory": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/armeabi-v7a",
+  "command": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnanodetncnn_EXPORTS -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/armeabi-v7a/include/ncnn -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/nanodetncnn.dir/nanodet.cpp.o -c /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/nanodet.cpp",
+  "file": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/nanodet.cpp"
+},
+
+{
+  "directory": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/armeabi-v7a",
+  "command": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnanodetncnn_EXPORTS -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ncnn-20210720-android-vulkan/armeabi-v7a/include/ncnn -isystem /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/opencv-mobile-4.5.3-android/sdk/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC   -fno-rtti -fno-exceptions -std=gnu++11 -o CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o -c /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ndkcamera.cpp",
+  "file": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/ndkcamera.cpp"
+}
+]

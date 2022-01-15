@@ -1,0 +1,166 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/x86",
+  "soFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/x86",
+  "soRepublishFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cmake/release/obj/x86",
+  "abiPlatformVersion": 24,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj",
+    "soRepublishFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cmake/release/obj",
+    "cxxBuildFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60",
+    "intermediatesFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx",
+      "intermediatesBaseFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates",
+      "intermediatesFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app",
+      "moduleBuildFile": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build.gradle",
+      "makeFile": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/home/demo/Android/Sdk/ndk/21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/cmake",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/demo/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet",
+        "sdkFolder": "/home/demo/Android/Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "RelWithDebInfo"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/prefab/x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "2e1i6t605k6c3x1a2x336z662g485d6y446m5c586g704u4o605d17c33s4x3e",
+  "configurationArguments": [
+    "-H/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/src/main/jni",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d24",
+    "-DANDROID_PLATFORM\u003dandroid-24",
+    "-DANDROID_ABI\u003dx86",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DANDROID_NDK\u003d/home/demo/Android/Sdk/ndk/21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003d/home/demo/Android/Sdk/ndk/21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/demo/Android/Sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/RelWithDebInfo/2e1i6t60/obj/x86",
+    "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
+    "-B/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/RelWithDebInfo/2e1i6t60/x86",
+    "-GNinja"
+  ]
+}
