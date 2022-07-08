@@ -15,7 +15,6 @@
 package com.tencent.nanodetncnn;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
@@ -28,10 +27,11 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
-public class MainActivity extends Activity implements SurfaceHolder.Callback
+public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback
 {
     public static final int REQUEST_CAMERA = 100;
 
@@ -50,11 +50,11 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        cameraView = (SurfaceView) findViewById(R.id.cameraview);
+        cameraView = findViewById(R.id.cameraview);
 
         cameraView.getHolder().setFormat(PixelFormat.RGBA_8888);
         cameraView.getHolder().addCallback(this);
