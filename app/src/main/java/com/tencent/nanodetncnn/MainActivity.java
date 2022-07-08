@@ -49,13 +49,13 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
     private SurfaceView cameraView;
 
-    public void callback(String output, String probability) {
-        Log.d("ncnn", "识别结果：" + output);
+    public void callback(String output, String probability, String x, String y, String width, String height) {
+        // Log.d("ncnn", "识别结果：" + output);
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                binding.textViewCurrentLabel.setText(String.format("label: %s, \nprobability: %s",
-                        output, probability));
+                binding.textViewCurrentLabel.setText(String.format("label: %s, \nprobability: %s, Rect: [x: %s, y: %s, width: %s, height: %s ]",
+                        output, probability, x, y, width, height));
             }
         });
     }
@@ -69,11 +69,15 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         setContentView(binding.getRoot());
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        nanodetncnn.injectObjectReference(this);
+
+
 
         cameraView = findViewById(R.id.cameraview);
-
         cameraView.getHolder().setFormat(PixelFormat.RGBA_8888);
         cameraView.getHolder().addCallback(this);
+
+
 
         Button buttonSwitchCamera = (Button) findViewById(R.id.buttonSwitchCamera);
         buttonSwitchCamera.setOnClickListener(new View.OnClickListener() {

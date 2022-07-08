@@ -36,6 +36,62 @@
 #if __ARM_NEON
 #include <arm_neon.h>
 #endif // __ARM_NEON
+#define APPNAME "nanodetncnn.cpp"
+
+static jint JNI_VERSION = JNI_VERSION_1_4;
+JNIEnv *env;
+
+JavaVM *javaVM_global;
+jmethodID java_method_callback;
+jclass MainActivityClass;
+jobject MainActivityObject; // to make non-static calls
+
+static jstring char2string(const char *pat) {
+    if (!env || env == nullptr) {
+        __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "JNI env nullptr.");
+    }
+
+    jstring jstrBuffer = env->NewStringUTF(pat);
+    if (!jstrBuffer) {
+        __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "failed to create jstring.");
+    }
+
+    return jstrBuffer;
+}
+
+static jstring float2jstring(const float input) {
+    std::string probabilityString = std::to_string(input);
+    const char* probabilityChar = probabilityString.c_str();
+    jstring string_jni = env->NewStringUTF(probabilityChar);
+    return string_jni;
+}
+
+static void call_java_method(const char *objectLabel, const float prob, const cv::Rect_<float> rect) {
+
+    /** Get reference to JNIEnv env */
+    if (javaVM_global->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION) != JNI_OK) {
+        __android_log_print(ANDROID_LOG_ERROR, APPNAME, " JNI_VERSION) != JNI_OK");
+        return;
+    }
+    __android_log_print(ANDROID_LOG_ERROR, APPNAME, "%s",  objectLabel);
+
+    jstring jprobability = float2jstring(prob);
+
+    jstring x = float2jstring(rect.x);
+    jstring y = float2jstring(rect.y);
+    jstring width = float2jstring(rect.width);
+    jstring height = float2jstring(rect.height);
+
+    java_method_callback = env->GetMethodID(
+            MainActivityClass,
+            "callback",
+            "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V");
+    jstring object_label_string = char2string(objectLabel);
+    env->CallVoidMethod(MainActivityObject, java_method_callback, object_label_string, jprobability, x, y, width, height);
+
+}
+
+
 
 static int draw_unsupported(cv::Mat& rgb)
 {
@@ -55,6 +111,26 @@ static int draw_unsupported(cv::Mat& rgb)
 
     return 0;
 }
+static const char *class_names[] =
+        {
+                "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat",
+                "traffic light",
+                "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat", "dog", "horse",
+                "sheep", "cow",
+                "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella", "handbag", "tie",
+                "suitcase", "frisbee",
+                "skis", "snowboard", "sports ball", "kite", "baseball bat", "baseball glove", "skateboard",
+                "surfboard",
+                "tennis racket", "bottle", "wine glass", "cup", "fork", "knife", "spoon", "bowl", "banana",
+                "apple",
+                "sandwich", "orange", "broccoli", "carrot", "hot dog", "pizza", "donut", "cake", "chair",
+                "couch",
+                "potted plant", "bed", "dining table", "toilet", "tv", "laptop", "mouse", "remote",
+                "keyboard", "cell phone",
+                "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors",
+                "teddy bear",
+                "hair drier", "toothbrush"
+        }; // 80 objects
 
 static int draw_fps(cv::Mat& rgb)
 {
@@ -129,8 +205,16 @@ void MyNdkCamera::on_image_render(cv::Mat& rgb) const
         {
             std::vector<Object> objects;
             g_nanodet->detect(rgb, objects);
-
             g_nanodet->draw(rgb, objects);
+
+            for (auto &object : objects) {
+                __android_log_print(ANDROID_LOG_ERROR, APPNAME, "%s",  class_names[object.label]);
+                const char *label = class_names[object.label];
+                const float prob = object.prob;
+                const cv::Rect_<float> rectangle = object.rect;
+
+               call_java_method(label, prob, rectangle);
+            }
         }
         else
         {
@@ -141,6 +225,8 @@ void MyNdkCamera::on_image_render(cv::Mat& rgb) const
     draw_fps(rgb);
 }
 
+
+
 static MyNdkCamera* g_camera = 0;
 
 extern "C" {
@@ -148,16 +234,36 @@ extern "C" {
 
 JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved)
 {
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "JNI_OnLoad");
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "JNI_OnLoad");
+
+    // Obtain the JNIEnv from the VM and confirm JNI_VERSION
+    if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION) != JNI_OK) {
+        __android_log_print(ANDROID_LOG_ERROR, APPNAME,
+                            "error  JNI_VERSION) != JNI_OK");
+        return JNI_ERR;
+    }
+    javaVM_global = vm; // important. This variable is critical for success.
+    jclass tempLocalClassRef;
+    tempLocalClassRef = env->FindClass("com/tencent/nanodetncnn/MainActivity");
+
+    // STEP 1/3 : Load the class id
+    if (tempLocalClassRef == nullptr || env->ExceptionOccurred() ) {
+        env->ExceptionClear();
+        __android_log_print(ANDROID_LOG_ERROR, APPNAME, "%s", "There was an error in JNI_OnLoad");
+    }
+    // STEP 2/3 : Assign the ClassId as a Global Reference
+    MainActivityClass = (jclass) env->NewGlobalRef(tempLocalClassRef);
+    // STEP 3/3 : Delete the no longer needed local reference
+    env->DeleteLocalRef(tempLocalClassRef);
 
     g_camera = new MyNdkCamera;
 
-    return JNI_VERSION_1_4;
+    return JNI_VERSION;
 }
 
 JNIEXPORT void JNI_OnUnload(JavaVM* vm, void* reserved)
 {
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "JNI_OnUnload");
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "JNI_OnUnload");
 
     {
         ncnn::MutexLockGuard g(lock);
@@ -165,6 +271,10 @@ JNIEXPORT void JNI_OnUnload(JavaVM* vm, void* reserved)
         delete g_nanodet;
         g_nanodet = 0;
     }
+    // clean up
+    vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION);
+    env->DeleteGlobalRef(MainActivityClass);
+    env->DeleteGlobalRef(MainActivityObject);
 
     delete g_camera;
     g_camera = 0;
@@ -180,7 +290,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_loadModel(JN
 
     AAssetManager* mgr = AAssetManager_fromJava(env, assetManager);
 
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "loadModel %p", mgr);
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "loadModel %p", mgr);
 
     const char* modeltypes[] =
     {
@@ -257,7 +367,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_openCamera(J
     if (facing < 0 || facing > 1)
         return JNI_FALSE;
 
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "openCamera %d", facing);
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "openCamera %d", facing);
 
     g_camera->open((int)facing);
 
@@ -267,7 +377,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_openCamera(J
 // public native boolean closeCamera();
 JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_closeCamera(JNIEnv* env, jobject thiz)
 {
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "closeCamera");
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "closeCamera");
 
     g_camera->close();
 
@@ -279,7 +389,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_setOutputWin
 {
     ANativeWindow* win = ANativeWindow_fromSurface(env, surface);
 
-    __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "setOutputWindow %p", win);
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "setOutputWindow %p", win);
 
     g_camera->set_window(win);
 
@@ -292,5 +402,9 @@ extern "C"
 JNIEXPORT jboolean JNICALL
 Java_com_tencent_nanodetncnn_NanoDetNcnn_injectObjectReference(JNIEnv *env, jobject thiz,
                                                                jobject main_activity) {
-    // TODO: implement injectObjectReference()
+    __android_log_print(ANDROID_LOG_ERROR, APPNAME, "Call over JNI: injectBluetoothSettings");
+
+    MainActivityObject = (jobject) env->NewGlobalRef(main_activity);
+
+    return JNI_TRUE;
 }
