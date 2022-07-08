@@ -1,7 +1,0 @@
-Executable : /home/demo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/arm64-v8a
-nanodetncnn
-jvmArgs : 
-

@@ -1,5 +1,0 @@
-ninja: Entering directory `/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/cmake/debug/arm64-v8a'
-[1/4] Building CXX object CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o
-[2/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o
-[3/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodet.cpp.o
-[4/4] Linking CXX shared library /home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so

@@ -1,1 +1,0 @@
-/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/build/intermediates/cxx/Debug/5ol5t4w6/obj/x86

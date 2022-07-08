@@ -1,5 +1,5 @@
-app/src/main/jni/ncnn-20220701-android-vulkan/opencv-mobile-*-android
-app/src/main/jni/ncnn-20220701-android-vulkan/ncnn-*-android-vulkan/
+app/src/main/jni/ncnn-*-android-vulkan/
+app/src/main/jni/opencv-mobile-*-android/
 # Built application files
 *.apk
 *.aar
@@ -51,7 +51,7 @@ captures/
 .idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
-
+.idea/
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
 #*.jks

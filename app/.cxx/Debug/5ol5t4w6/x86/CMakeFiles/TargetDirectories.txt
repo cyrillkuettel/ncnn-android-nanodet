@@ -1,3 +1,0 @@
-/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86/CMakeFiles/rebuild_cache.dir
-/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86/CMakeFiles/edit_cache.dir
-/home/demo/AndroidStudioProjects/ncnn-android-nanodet/app/.cxx/Debug/5ol5t4w6/x86/CMakeFiles/nanodetncnn.dir
