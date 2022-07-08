@@ -24,6 +24,8 @@ public class NanoDetNcnn
     public native boolean closeCamera();
     public native boolean setOutputWindow(Surface surface);
 
+    public native boolean injectObjectReference(MainActivity mainActivity);
+
     static {
         System.loadLibrary("nanodetncnn");
     }

@@ -25,6 +25,9 @@ struct Object
     int label;
     float prob;
 };
+extern JavaVM* javaVM_global;
+extern jclass MainActivityClass;
+extern jobject MainActivityObject;
 
 class NanoDet
 {

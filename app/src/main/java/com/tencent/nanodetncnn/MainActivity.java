@@ -31,9 +31,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.tencent.nanodetncnn.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback
 {
     public static final int REQUEST_CAMERA = 100;
+    private ActivityMainBinding binding;
+
 
     private NanoDetNcnn nanodetncnn = new NanoDetNcnn();
     private int facing = 0;
@@ -45,12 +49,24 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
     private SurfaceView cameraView;
 
+    public void callback(String output, String probability) {
+        Log.d("ncnn", "识别结果：" + output);
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                binding.textViewCurrentLabel.setText(String.format("label: %s, \nprobability: %s",
+                        output, probability));
+            }
+        });
+    }
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 

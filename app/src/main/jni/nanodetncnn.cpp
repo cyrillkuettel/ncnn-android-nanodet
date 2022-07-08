@@ -145,6 +145,7 @@ static MyNdkCamera* g_camera = 0;
 
 extern "C" {
 
+
 JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved)
 {
     __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "JNI_OnLoad");
@@ -285,4 +286,11 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_setOutputWin
     return JNI_TRUE;
 }
 
+}
+
+extern "C"
+JNIEXPORT jboolean JNICALL
+Java_com_tencent_nanodetncnn_NanoDetNcnn_injectObjectReference(JNIEnv *env, jobject thiz,
+                                                               jobject main_activity) {
+    // TODO: implement injectObjectReference()
 }
