@@ -300,7 +300,8 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_loadModel(JN
         "ELite0_320",
         "ELite1_416",
         "ELite2_512",
-        "RepVGG-A0_416"
+        "RepVGG-A0_416",
+        "plus-m-416"
     };
 
     const int target_sizes[] =
