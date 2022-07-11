@@ -1,12 +1,13 @@
 # ncnn-android-nanodet
 # branch: Nanodetplus
-
+  
+  
 ✔️ This project provides minor additions to the original project.  
 ✔️  Get detected Object's information not just in C++, but also in any Java Class.    
 ✔️  Upgraded Dependencies to AndroidX  
 ✔️  Implement the Nanodet-plus  
 
-
+[Nanodetplus Apk Demo](https://github.com/cyrillkuettel/ncnn-android-nanodet/releases/download/v2/com.tencent.nanodetncnn-release.apk)
 
 ## All credit goes to the original author.
 The NanoDet object detection
@@ -18,7 +19,7 @@ https://github.com/Tencent/ncnn
 https://github.com/nihui/opencv-mobile
 
 ## android apk file download
-https://github.com/nihui/ncnn-android-nanodet/releases/download/v2/com.tencent.nanodetncnn-release.apk
+https://github.com/cyrillkuettel/ncnn-android-nanodet/releases/download/v2/com.tencent.nanodetncnn-release.apk
 
 ## how to build and run
 ### step1
