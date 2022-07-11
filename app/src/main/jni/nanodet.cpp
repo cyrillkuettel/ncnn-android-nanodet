@@ -18,6 +18,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 #include "cpu.h"
+#define APPNAME "nanodet.cpp"
 
 static inline float intersection_area(const Object& a, const Object& b)
 {
@@ -103,50 +104,46 @@ static void nms_sorted_bboxes(const std::vector<Object>& faceobjects, std::vecto
             picked.push_back(i);
     }
 }
-
-static void generate_proposals(const ncnn::Mat& cls_pred, const ncnn::Mat& dis_pred, int stride, const ncnn::Mat& in_pad, float prob_threshold, std::vector<Object>& objects)
+static inline float sigmoid(float x)
 {
-    const int num_grid = cls_pred.h;
+    return 1.0f / (1.0f + exp(-x));
+}
 
-    int num_grid_x;
-    int num_grid_y;
-    if (in_pad.w > in_pad.h)
-    {
-        num_grid_x = in_pad.w / stride;
-        num_grid_y = num_grid / num_grid_x;
-    }
-    else
-    {
-        num_grid_y = in_pad.h / stride;
-        num_grid_x = num_grid / num_grid_y;
-    }
+static void generate_proposals(const ncnn::Mat& pred, int stride, int _num_class, const ncnn::Mat& in_pad, float prob_threshold, std::vector<Object>& objects)
+{
+    const int num_grid = pred.h;
 
-    const int num_class = cls_pred.w;
-    const int reg_max_1 = dis_pred.w / 4;
+    int num_grid_x = pred.w;
+    int num_grid_y = pred.h;
+
+    const int num_class = _num_class; // number of classes. 80 for COCO
+    const int reg_max_1 = (pred.c - num_class) / 4;
 
     for (int i = 0; i < num_grid_y; i++)
     {
         for (int j = 0; j < num_grid_x; j++)
         {
-            const int idx = i * num_grid_x + j;
-
-            const float* scores = cls_pred.row(idx);
-
             // find label with max score
             int label = -1;
             float score = -FLT_MAX;
             for (int k = 0; k < num_class; k++)
             {
-                if (scores[k] > score)
+                float s = pred.channel(k).row(i)[j];
+                if (s > score)
                 {
                     label = k;
-                    score = scores[k];
+                    score = s;
                 }
             }
 
+            score = sigmoid(score);
             if (score >= prob_threshold)
             {
-                ncnn::Mat bbox_pred(reg_max_1, 4, (void*)dis_pred.row(idx));
+                ncnn::Mat bbox_pred(reg_max_1, 4);
+                for (int k = 0; k < reg_max_1 * 4; k++)
+                {
+                    bbox_pred[k] = pred.channel(num_class + k).row(i)[j];
+                }
                 {
                     ncnn::Layer* softmax = ncnn::create_layer("Softmax");
 
@@ -181,8 +178,8 @@ static void generate_proposals(const ncnn::Mat& cls_pred, const ncnn::Mat& dis_p
                     pred_ltrb[k] = dis * stride;
                 }
 
-                float pb_cx = (j + 0.5f) * stride;
-                float pb_cy = (i + 0.5f) * stride;
+                float pb_cx = j * stride;
+                float pb_cy = i * stride;
 
                 float x0 = pb_cx - pred_ltrb[0];
                 float y0 = pb_cy - pred_ltrb[1];
@@ -202,6 +199,8 @@ static void generate_proposals(const ncnn::Mat& cls_pred, const ncnn::Mat& dis_p
         }
     }
 }
+
+
 
 NanoDet::NanoDet()
 {
@@ -271,8 +270,9 @@ int NanoDet::load(AAssetManager* mgr, const char* modeltype, int _target_size, c
     sprintf(parampath, "nanodet-%s.param", modeltype);
     sprintf(modelpath, "nanodet-%s.bin", modeltype);
 
-    nanodet.load_param(mgr, parampath);
+    int res = nanodet.load_param(mgr, parampath);
     nanodet.load_model(mgr, modelpath);
+    __android_log_print(ANDROID_LOG_WARN, "nanodet.cpp", "res = %d", res);
 
     target_size = _target_size;
     mean_vals[0] = _mean_vals[0];
@@ -287,10 +287,13 @@ int NanoDet::load(AAssetManager* mgr, const char* modeltype, int _target_size, c
 
 int NanoDet::detect(const cv::Mat& rgb, std::vector<Object>& objects, float prob_threshold, float nms_threshold)
 {
+    __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "detect");
+
     int width = rgb.cols;
     int height = rgb.rows;
 
     // pad to multiple of 32
+    int num_classes = class_names.size();
     int w = width;
     int h = height;
     float scale = 1.f;
@@ -319,47 +322,56 @@ int NanoDet::detect(const cv::Mat& rgb, std::vector<Object>& objects, float prob
 
     ncnn::Extractor ex = nanodet.create_extractor();
 
-    ex.input("input.1", in_pad);
+    ex.input("in0", in_pad);
 
     std::vector<Object> proposals;
 
     // stride 8
     {
-        ncnn::Mat cls_pred;
-        ncnn::Mat dis_pred;
-        ex.extract("cls_pred_stride_8", cls_pred);
-        ex.extract("dis_pred_stride_8", dis_pred);
+        ncnn::Mat pred; // here it fails
+        ex.extract("231", pred);
+        __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "         ex.extract(\"231\", pred);");
 
         std::vector<Object> objects8;
-        generate_proposals(cls_pred, dis_pred, 8, in_pad, prob_threshold, objects8);
+        generate_proposals(pred, 8, num_classes, in_pad, prob_threshold, objects8);
+        __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "      generate_proposals worked the first time");
 
         proposals.insert(proposals.end(), objects8.begin(), objects8.end());
     }
 
     // stride 16
     {
-        ncnn::Mat cls_pred;
-        ncnn::Mat dis_pred;
-        ex.extract("cls_pred_stride_16", cls_pred);
-        ex.extract("dis_pred_stride_16", dis_pred);
+        ncnn::Mat pred;
+        __android_log_print(ANDROID_LOG_DEBUG, APPNAME, "  now extracting 228");
+
+        ex.extract("228", pred);
 
         std::vector<Object> objects16;
-        generate_proposals(cls_pred, dis_pred, 16, in_pad, prob_threshold, objects16);
+        generate_proposals(pred, 16, num_classes, in_pad, prob_threshold, objects16);
 
         proposals.insert(proposals.end(), objects16.begin(), objects16.end());
     }
 
     // stride 32
     {
-        ncnn::Mat cls_pred;
-        ncnn::Mat dis_pred;
-        ex.extract("cls_pred_stride_32", cls_pred);
-        ex.extract("dis_pred_stride_32", dis_pred);
+        ncnn::Mat pred;
+        ex.extract("225", pred);
 
         std::vector<Object> objects32;
-        generate_proposals(cls_pred, dis_pred, 32, in_pad, prob_threshold, objects32);
+        generate_proposals(pred, 32, num_classes, in_pad, prob_threshold, objects32);
 
         proposals.insert(proposals.end(), objects32.begin(), objects32.end());
+    }
+
+    // stride 64
+    {
+        ncnn::Mat pred;
+        ex.extract("222", pred);
+
+        std::vector<Object> objects64;
+        generate_proposals(pred, 64,num_classes,  in_pad, prob_threshold, objects64);
+
+        proposals.insert(proposals.end(), objects64.begin(), objects64.end());
     }
 
     // sort all proposals by score from highest to lowest
