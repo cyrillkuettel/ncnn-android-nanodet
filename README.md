@@ -1,10 +1,10 @@
 # ncnn-android-nanodet
 # branch: Nanodetplus
 
-✔️ This project provides minor additions to the original project.
-✔️  Get detected Object's information not just in C++, but also in any Java Class.  
-✔️  Upgraded Dependencies to AndroidX
-✔️  Implement the Nanodet-plus
+✔️ This project provides minor additions to the original project.  
+✔️  Get detected Object's information not just in C++, but also in any Java Class.    
+✔️  Upgraded Dependencies to AndroidX  
+✔️  Implement the Nanodet-plus  
 
 
 
