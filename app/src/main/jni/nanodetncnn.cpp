@@ -294,47 +294,22 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_loadModel(JN
 
     const char* modeltypes[] =
     {
-        "m",
-        "m-416",
-        "g",
-        "ELite0_320",
-        "ELite1_416",
-        "ELite2_512",
-        "RepVGG-A0_416",
         "plus-m-416"
     };
 
     const int target_sizes[] =
     {
-        320,
-        416,
-        416,
-        320,
-        416,
-        512,
         416
     };
 
     const float mean_vals[][3] =
     {
-        {103.53f, 116.28f, 123.675f},
-        {103.53f, 116.28f, 123.675f},
-        {103.53f, 116.28f, 123.675f},
-        {127.f, 127.f, 127.f},
-        {127.f, 127.f, 127.f},
-        {127.f, 127.f, 127.f},
-        {103.53f, 116.28f, 123.675f}
+            {103.53f, 116.28f, 123.675f}
     };
 
     const float norm_vals[][3] =
     {
-        {1.f / 57.375f, 1.f / 57.12f, 1.f / 58.395f},
-        {1.f / 57.375f, 1.f / 57.12f, 1.f / 58.395f},
-        {1.f / 57.375f, 1.f / 57.12f, 1.f / 58.395f},
-        {1.f / 128.f, 1.f / 128.f, 1.f / 128.f},
-        {1.f / 128.f, 1.f / 128.f, 1.f / 128.f},
-        {1.f / 128.f, 1.f / 128.f, 1.f / 128.f},
-        {1.f / 57.375f, 1.f / 57.12f, 1.f / 58.395f}
+            {0.017429f, 0.017507f, 0.017125f},
     };
 
     const char* modeltype = modeltypes[(int)modelid];
